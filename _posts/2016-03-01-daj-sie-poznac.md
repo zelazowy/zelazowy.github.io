@@ -3,6 +3,7 @@ layout: post
 title:  "Daj Się Poznać 2016"
 date:   2016-03-01 19:10:50 +0100
 categories: daj-sie-poznac
+short_desc: Postanowiłem wziąć udział w konkursie [Daj Się Poznać 2016][daj-sie-poznac-2016] organizowanym przez [Macieja Aniserowicza][maciej-aniserowicz-website]. Konkurs polega na napisaniu open sourcowego projektu w dowolnej technologii...
 ---
 Postanowiłem wziąć udział w konkursie [Daj Się Poznać 2016][daj-sie-poznac-2016] organizowanym przez [Macieja Aniserowicza][maciej-aniserowicz-website]. Konkurs polega na napisaniu open sourcowego projektu w dowolnej technologii. Drugim warunkiem koniecznym jest prowadzenie bloga przez 10 tygodni, 2 wpisy tygodniowo. Ot i cała filozofia :)
 

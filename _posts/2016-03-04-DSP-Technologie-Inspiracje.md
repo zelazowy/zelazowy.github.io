@@ -3,6 +3,7 @@ layout: post
 title:  "DSP: Technologie, inspiracje, narzędzia"
 date:   2016-03-04 20:57:00 +0100
 categories: daj-sie-poznac
+short_desc: Od wielu lat jestem wielbicielem gier. Największy sentyment mam do epoki królowania konsol nintendo. Super Mario Bros. z 1985 uważam za genialną platformówkę...
 ---
 Jeszcze zanim zacznę kodować chciałbym wytłumaczyć się z podjętych decyzji 😉
 
