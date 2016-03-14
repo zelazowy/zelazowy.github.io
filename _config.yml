@@ -16,7 +16,7 @@ twitter_username: krzychjonczyk
 github_username: zelazowy
 
 # Google analytics
-google_analytics: UA-13163274-9
+google_analytics: "UA-13163274-9"
 
 # Build settings
 markdown: kramdown
