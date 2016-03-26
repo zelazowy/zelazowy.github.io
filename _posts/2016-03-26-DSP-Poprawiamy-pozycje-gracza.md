@@ -6,7 +6,7 @@ categories: daj-sie-poznac
 short_desc: "W tej chwili wyklarowała mi się pierwsza wersja sposobu sterowania. Chcę aby gracz poruszał się kubek w kubek tak samo jako w Super Mario Bros. Czyli ruch przód-tył, przycisk skoku, gracz wyśrodkowany (lekko do tyłu?) oraz możliwość ruchu planszy tylko do przodu..."
 ---
 Na początek: obiecany screen z aktualnych postępów ;)
-<img src="images/panikoton-poprawiamy-pozycje-gracza.png"/>
+<img src="/images/panikoton-poprawiamy-pozycje-gracza.png"/>
 
 W tej chwili wyklarowała mi się pierwsza wersja sposobu sterowania. Chcę aby gracz poruszał się kubek w kubek tak samo jako w Super Mario Bros. Czyli ruch przód-tył, przycisk skoku, gracz wyśrodkowany (lekko do tyłu?) oraz możliwość ruchu planszy tylko do przodu. Ruch do tyłu nie powoduje przesuwania się planszy a tylko gracza do granic okna. Ponowny ruch do przodu najpierw dąży do wyśrodkowania gracza a następnie porusza planszą.
 
