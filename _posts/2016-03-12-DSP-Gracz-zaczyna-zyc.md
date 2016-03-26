@@ -9,7 +9,7 @@ W poprzednim wpisie napisałem, że pierwszą rzeczą jaką chcę zakodować to 
 
 Znalazłem w sieci [kod tetrisa][tetris-kod] napisany w PyQt4 i wgryzłem się w jego funkcje. Dowiedziałem się, że rysowanie czegokolwiek na planszy może zostać wykonane przez `QPainter`, a ten użyty może być tylko w event’cie `paintEvent`. QPainter musi za każdym razem zostać „opuszczony” (`begin`) oraz po zakończeniu podniesiony (`end`). Pomiędzy tymi metodami może dziać się wszystko. Użyłem określeń podniesiony i opuszczony żeby porównać QPaintera do np. rysowania ołówkiem.
 
-``` Python
+``` python
 def paintEvent(self, QPaintEvent):
     self.drawPlayer()
 
@@ -23,7 +23,7 @@ def drawPlayer(self):
 
 Narysowałem więc okno 500x500 px, ustaliłem rozmiary gracza na 50x50 px oraz rozmiar ruchu na 10 px. Następnie nadpisałem metodę `keyPressEvent` która odpowiada za przechwycenie przyciśnięcia klawisza. W prostym bloku if-elif (Python nie ma `switch`a?) zaimplementowałem 4 metody dla klawiszy strzałek.
 
-``` Python
+``` python
 def keyPressEvent(self, e):
     key = e.key()
 

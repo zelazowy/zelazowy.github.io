@@ -13,7 +13,7 @@ Zacząłem od przygotowania grafiki planszy. Jako #mistrzpainta wszedłem na str
 
 Ok, jest tło, trzeba by je wstawić do gry. Najpierw kombinowałem z ustawieniem tła okna, no ale tutaj widziałem problem z przesuwaniem się tła. Z pomocą przyszedł dobrze nam znany z poprzedniego wpisu `QPainter`, który w swojej przepastnej liście metod zawierał `drawPixmap`. Pixmapę znałem już z [poprzedniego projektu][photochooser] pisanego w PyQt4. Ustawiłem więc odpowiednią zmienną żeby wskazywała na lokalizację pliku i wstawiłem utworzone tło do pixmapy:
 
-```
+``` python
 background = './assets/stage1_bg.png'
 background_pos_x = 0
 # [...]
@@ -30,7 +30,8 @@ Pierwszy krok załatwiony. Teraz czas aby tło zaczęło się ruszać. Tutaj mia
 3. w przeciwnym przypadku rusz planszą, gracz pozostaje nieruchomy (względem okna)
 
 Kodowo wygląda to następująco:
-```
+
+``` python
 def player_move_right(self):
     if self.pos_x + self.player_w >= self.window_w:
         return
