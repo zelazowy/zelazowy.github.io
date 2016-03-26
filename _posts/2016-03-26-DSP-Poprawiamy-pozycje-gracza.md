@@ -13,6 +13,7 @@ W tej chwili wyklarowała mi się pierwsza wersja sposobu sterowania. Chcę aby 
 Dzięki tej decyzji mogę usunąć z kodu niepotrzebne funkcje do ruchu góra-dół, które zostaną ostatecznie zastąpione skokiem i przyciąganiem gracza do podłoża. Także warunki ruchu upraszają się. Dochodzi właściwie tylko sprawdzenie czy gracz jest wyśrodkowany przy ruchu do przodu.
 
 Kod odpowiedzialny za ruch do przodu wygląda tak:
+
 ``` python
 # moves player forward
 def player_move_forward(self):
@@ -32,7 +33,8 @@ Najpierw sprawdzam czy gracz w ogóle może ruszyć się na przód (czy nie dota
 
 Przy okazji jak widać zmieniłem nazewnictwo. Zamiast używać nazw prawo-lewo postanowiłem użyć przód-tył. Dzięki temu łatwiej będzie się połapać jak wygląda sterowanie i nie będzie wiecznego problemu „która ręka to prawa” 😛
 
-Dosłownie pisząc opis tej metody pomyślałem, że zagnieżdżenie ifów jest już całkiem spore, a przecież warunki są proste. Dlatego postanowiłem zrobić mały refaktor i pozbyć się zagnieżdżeń na rzecz jednopoziomowych warunkó∑ i wyjść z metody. Zobaczcie jak to wygląda:
+Dosłownie pisząc opis tej metody pomyślałem, że zagnieżdżenie ifów jest już całkiem spore, a przecież warunki są proste. Dlatego postanowiłem zrobić mały refaktor i pozbyć się zagnieżdżeń na rzecz jednopoziomowych warunków i wyjść z metody. Zobaczcie jak to wygląda:
+
 ``` python
 # moves player forward
 def player_move_forward(self):
@@ -51,6 +53,7 @@ def player_move_forward(self):
 ```
 
 Mamy tutaj dwa podejścia do pisania metod. Kod przed refaktorem reprezentował podejście „jedno wejście - jedno wyjście” (chociaż nie do końca, pierwszy if temu przeczy), drugie zaś nie przejmuje się liczbą wyjść i przedkłada nad to mniejsze skomplikowanie kodu. Od dłuższego czasu stosuję tę drugą metodę z wielkim powodzeniem. Alergicznie wręcz reaguję na metody wyglądające tak:
+
 ``` python
 def smth(self):
     if True:
@@ -66,6 +69,7 @@ def smth(self):
 ```
 
 Uważam, że dużo lepiej jest wychodzić z metody jak najszybciej. Jeśli już pierwszy warunek przesądza czy cokolwiek będziemy robić to bezsensownym jest opakowywać kodu „pomyślnego” w ifa. Lepiej jest odwrócić warunek, wyjść, a w przypadku „pomyślnego” scenariusza wykonać czynności poza ifem.
+
 ``` python
 def smth(self):
     if False:
@@ -81,6 +85,7 @@ def smth(self):
 ```
 
 Jeszcze dla porządku spójrzmy na kod odpowiedzialny za ruch do tyłu:
+
 ``` python
 # moves player backward
 def player_move_backward(self):
