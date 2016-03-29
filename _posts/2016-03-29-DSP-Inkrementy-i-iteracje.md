@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DSP: Poprawiamy pozycję gracza"
+title:  "DSP: Inkrementy i iteracje"
 date:   2016-03-29 20:35:00 +0100
 categories: daj-sie-poznac
 short_desc: "Dzisiaj wpis zupełnie nietechniczny, chociaż bardzo przydatny w kontekście samego pisania aplikacji. Zapraszam do krótkiego studium pisania aplikacji inkrementacyjnie i iteracyjnie na przykładzie mojej gry..."
