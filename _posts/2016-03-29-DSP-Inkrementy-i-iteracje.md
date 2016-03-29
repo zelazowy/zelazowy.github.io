@@ -17,12 +17,11 @@ W skrócie: iteracyjność mówi, że najpierw tworzymy wersję najbardziej pods
 Inkrementacyjność (chyba nie ma takiego słowa…) oznacza dopisywanie funkcjonalność jedna po drugiej zamiast pisania wszystkich naraz.
 
 Te techniki idealnie się łączą. Pokażę to na podstawie swojej gry:  
-  1. W pierwszej iteracji chciałem mieć tylko wyświetlające się okno gry wraz z kwadratem przedstawiającym gracza. [x]  
-  2. Potem inkrementacyjnie dodałem sterowanie graczem w 4 kierunkach [x]  
-  3. Przyszła kolej na tło planszy i poruszanie się gracza względem nie tylko okna ale też samej planszy, sterowanie nie było idealne (choć wystarczające) [x]  
-  4. Kolejną rzeczą było iteracyjne poprawienie sterowania graczem, usunięcie zbędnych ruchów oraz poprawienie poruszania się po planszy [x]  
-  5. W kolejnym inkremencie ma pojawić się prymitywna fizyka gracza [ ]  
-  itd., itp.
+  1. W pierwszej iteracji chciałem mieć tylko wyświetlające się okno gry wraz z kwadratem przedstawiającym gracza. :heavy_check_mark:  
+  2. Potem inkrementacyjnie dodałem sterowanie graczem w 4 kierunkach :heavy_check_mark:  
+  3. Przyszła kolej na tło planszy i poruszanie się gracza względem nie tylko okna ale też samej planszy, sterowanie nie było idealne (choć wystarczające) :heavy_check_mark:  
+  4. Kolejną rzeczą było iteracyjne poprawienie sterowania graczem, usunięcie zbędnych ruchów oraz poprawienie poruszania się po planszy :heavy_check_mark:  
+  5. W kolejnym inkremencie ma pojawić się prymitywna fizyka gracza, itd, itp.
 
 Jak widać zacząłem od bardzo podstawowych wymagań. Jednak dzięki szybkiemu spełnieniu ich mogłem szybko dopisywać nowe funkcjonalności i poprawiać te, które na testach okazywały się zbyt proste lub niepoprawne.
 
