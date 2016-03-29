@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DSP: Poprawiamy pozycję gracza"
+title:  "DSP: Poprawiamy pozycję gracza."
 date:   2016-03-26 19:52:00 +0100
 categories: daj-sie-poznac
 short_desc: "W tej chwili wyklarowała mi się pierwsza wersja sposobu sterowania. Chcę aby gracz poruszał się kubek w kubek tak samo jako w Super Mario Bros. Czyli ruch przód-tył, przycisk skoku, gracz wyśrodkowany (lekko do tyłu?) oraz możliwość ruchu planszy tylko do przodu..."
