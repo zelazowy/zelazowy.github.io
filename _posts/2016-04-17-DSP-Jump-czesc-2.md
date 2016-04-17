@@ -5,12 +5,12 @@ date:   2016-04-17 12:00:00 +0200
 categories: daj-sie-poznac
 short_desc: "Trochę mi zajęło wymyślenie sposobu na ogranie kilku klawiszy na raz. Potrzebne jest to chociażby do wyświetlenia skoku wraz z ruchem po planszy. Kłopot polegał na tym, że metoda `keyPressEvent` obsługuje tylko wciśnięcia pojedynczych klawiszy..."
 ---
-Patrzcie na to!
+Patrzcie na to!  
 <img src="/images/cat-jump.gif"/>
 
 Ale pokolei ;)
 
----
+---  
 
 Trochę mi zajęło wymyślenie sposobu na ogranie kilku klawiszy na raz. Potrzebne jest to chociażby do wyświetlenia skoku wraz z ruchem po planszy. Kłopot polegał na tym, że metoda `keyPressEvent` obsługuje tylko wciśnięcia pojedynczych klawiszy. Gdy miałem wciśnięty klawisz od ruchu w prawo i w tym czasie naciskałem skok, to gracz zatrzymywał się, skakał i mimo dalej wciśniętego klawisza ruchu był już nieruchomy.
 
