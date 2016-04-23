@@ -40,5 +40,6 @@ Powala na kolana nie? 😃 Ale w ostateczności w końcu da się w grze wygrać 
 W następnym wpisie na pewno poruszę temat uporządkowania kodu bo znów przestaję wiedzieć co się tu wyprawia. Być może przeszkoda stanie się jakiegoś typu wrogiem? Bardzo chciałbym dopisać również jakieś platformy na które będzie można wskoczyć - mam już próbny kod jednak m.in przez ten nieszczęsny punkt (0, 0) jest on skomplikowany i ciężki do ogarnięcia.
 
 Czas pokaże.
+
 [is_obstacle_hit]: https://github.com/zelazowy/panikoton/commit/a9213252c5f236885001d32d60aae43664764213#diff-9979a7424a0ea3055bdb08bbbf861b34R285
 [is_game_over]: https://github.com/zelazowy/panikoton/commit/a9213252c5f236885001d32d60aae43664764213#diff-9979a7424a0ea3055bdb08bbbf861b34R154
