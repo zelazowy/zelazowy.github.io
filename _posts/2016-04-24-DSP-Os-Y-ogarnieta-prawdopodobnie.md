@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "DSP: 1 poziom - wygrana i przegrana"
+title:  "DSP: Oś Y ogarnięta (prawdopodobnie)"
 date:   2016-04-24 20:49:00 +0200
 categories: daj-sie-poznac
 short_desc: "Prawdopodobnie udało mi się zapanować nad osią Y. Jak pisałem poprzednio zacząłem nieco gubić się w temacie umiejscowienia gracza, planszy czy przeszkody. Wszystkiemu winna jest oś Y która punkt 0 ma w lewym górnym rogu i rośnie w dół - zupełnie odwrotnie niż bym chciał..."
