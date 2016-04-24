@@ -11,7 +11,8 @@ Szukałem informacji czy aby nie można programowo odwrócić tej osi i przerobi
 
 Zajrzałem więc do kodu. Problem tkwił tylko w poruszaniu się w pionie (bo oś X działa tak jak „powinna”) więc pole do analizy było całkiem dobrze ograniczone. Potrzebowałem dobrze ograć wysokość całej planszy, umiejscowienie i wysokość gruntu oraz skok gracza.
 
-Przed zmianami w kodzie znajdowały się m.in takie babole:  
+Przed zmianami w kodzie znajdowały się m.in takie babole:
+
 - rysowanie przeszkody: `painter.drawRect(cls.obstacle_x + cls.background_x, cls.h - 50, cls.obstacle_w, -cls.obstacle_h)` - ujemna wysokość?
 - rysowanie gruntu: `painter.drawRect(0, cls.h - 50, cls.w, 50)` - dlaczego 0? Co to jest to 50?
 
