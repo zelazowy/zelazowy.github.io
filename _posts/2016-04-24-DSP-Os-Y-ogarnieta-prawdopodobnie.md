@@ -14,6 +14,7 @@ Zajrzałem więc do kodu. Problem tkwił tylko w poruszaniu się w pionie (bo o�
 Przed zmianami w kodzie znajdowały się m.in takie babole:
 
 - rysowanie przeszkody: `painter.drawRect(cls.obstacle_x + cls.background_x, cls.h - 50, cls.obstacle_w, -cls.obstacle_h)` - ujemna wysokość?
+
 - rysowanie gruntu: `painter.drawRect(0, cls.h - 50, cls.w, 50)` - dlaczego 0? Co to jest to 50?
 
 Musiałem zaadresować 2 problemy: wartości początkowe oraz wartości zmieniające się wraz z ruchem. Ten pierwszy zabieg pozwolił wyrzucić wszelkie magiczne ustawianie wartości poza same metody - i odpowiednie udokumentowanie ich. Dzięki temu rysowanie gruntu wygląda teraz tak: `painter.drawRect(cls.ground_x, cls.ground_y, cls.ground_w, cls.ground_h)` - prawda, że lepiej? 😃 Wszystkie wartości ustawiane są teraz poza samym rysowaniem i wygląda to tak:
