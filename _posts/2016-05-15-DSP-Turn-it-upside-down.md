@@ -10,6 +10,7 @@ Liczba wpisów do końca DPS: 5
 Zacząłem czyścić kod z niepotrzebnych funkcji które nie dowiozą mi [poprzednio][poprzedni-wpis] opisanego MVP. I trochę się rozpędziłem... ;)
 
 Uznałem, że tło planszy jakie jest w tej chwili jest bez sensu, bo:
+
   1. muszę je stworzyć tak duże jak ma być cała plansza, albo
   2. stworzyć je na tyle długie, żeby powtarzanie go co jakiś czas nie wyglądało "nudno"
 
@@ -22,6 +23,7 @@ Potem pomyślałem, że w sumie cofanie się gracza nie ma sensu, no bo po co? N
 Kod odpowiedzialny za ruch do przodu - wyleciał. Skoro ten kod wyleciał, to i oznaczanie czy gracz jest wyśrodkowany czy trafił na koniec planszy itp. też stał się zbędny - do piekła z nim.
 
 I tak po porządkach zostało właściwie to:
+
   * skakanie
   * grunt pod graczem
   * automatyczny ruch gracza do przodu (żeby zobrazować ruch gracza grunt pod nim przesuwa się)
