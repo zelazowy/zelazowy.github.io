@@ -5,7 +5,7 @@ date:   2016-05-15 17:31:00 +0200
 categories: daj-sie-poznac
 short_desc: "Zacząłem czyścić kod z niepotrzebnych funkcji które nie dowiozą mi poprzednio opisanego MVP. I trochę się rozpędziłem... ;)"
 ---
-Liczba wpisów do końca DPS: 5
+Liczba wpisów do końca DPS: 4
 
 Zacząłem czyścić kod z niepotrzebnych funkcji które nie dowiozą mi [poprzednio][poprzedni-wpis] opisanego MVP. I trochę się rozpędziłem... ;)
 
